@@ -1,0 +1,43 @@
+.wrap{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+aside{
+  width: 296px;
+  box-sizing: border-box;
+
+  .container{
+    padding: 32px;
+    margin: unset;
+    background-color: #F8F9FA;
+    height: 100%;
+  }
+
+  .logo{
+    width: 151px; 
+    height: 40px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg);
+    margin-bottom: 32px;
+  }
+
+  .menu li{
+    margin-bottom: 22px;
+    
+    a{
+      color: $primary;
+    }
+  }
+}
+
+article{
+  width: 984px;
+  box-sizing: border-box;
+  padding: 32px;
+}
+
+
+
